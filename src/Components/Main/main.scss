@@ -1,0 +1,43 @@
+@import "../../style/qwarts.scss";
+
+.inspection {
+  color: $color;
+  font-weight: 700;
+  font-size: 36px;
+  padding-left: $padding-left;
+}
+
+.mainImg {
+  padding-left: $padding-left;
+  margin-top: $margin-top;
+}
+
+.insptext {
+  color: $color;
+  font-size: $font-size;
+  font-weight: 400;
+  padding-left: 260px;
+  margin-top: 20px;
+  width: 700px;
+}
+
+main {
+  margin-top: $margin-top;
+}
+
+.codeGen {
+  color: $color;
+  font-weight: 700;
+  font-size: 36px;
+  padding-left: $padding-left;
+  margin-top: $margin-top;
+}
+
+.codeImg {
+  padding-left: $padding-left;
+  margin-top: $margin-top;
+}
+
+.supcode {
+  padding-left: $padding-left;
+}

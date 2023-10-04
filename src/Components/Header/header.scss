@@ -1,0 +1,27 @@
+@import '../../style/qwarts.scss';
+
+.plug {
+  color: $color;
+  font-weight: 700;
+  font-size: 48px;
+  padding-left: $padding-left;
+  padding-top: 70px;
+}
+
+.plugtext {
+  color: $color;
+  font-size:$font-size;
+  font-weight: 400;
+  padding-left: $padding-left;
+  margin-top: 20px;
+  width: 700px;
+}
+
+.dotted {
+  padding-left: 260px;
+  font-size:$font-size;
+  font-weight: 400;
+  color: $color;
+  margin-top: 20px;
+  width: 700px;
+}

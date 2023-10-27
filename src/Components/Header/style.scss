@@ -1,0 +1,96 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  text-align: center;
+  height: 100vh;
+  font-size: 20px;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+  margin-top: 500px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+li {
+  list-style: none;
+  margin-top: 20px;
+}
+
+.list {
+  width: 500px;
+  height: 200px;
+  padding: 20px 30px;
+  margin-left: 135px;
+}
+
+.text-supers {
+  width: 500px;
+  margin-left: 150px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.sup {
+  margin-bottom: 50px;
+}
+
+.text-main {
+  margin-top: 50px;
+}
+
+.our-site {
+  background: linear-gradient(-45deg, #e73c7e, #ee7752);
+  text-align: center;
+  border: 1px solid white;
+  color: white;
+  width: 200px;
+  height: 50px;
+  border-radius: 20px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: 0.2s;
+  margin-left: 280px;
+}
+.our-site:hover {
+  color: violet;
+  border-color: violet;
+  background: linear-gradient(-45deg, #ee7752, #e73c7e);
+}
+
+.none {
+  display: none;
+}
+
+.noned {
+  display: block;
+}
+
+.about {
+  display: none;
+}
